@@ -1,0 +1,28 @@
+.news-list{
+  padding: 0 11px;
+  max-width: 1020px;
+}
+
+.news-list > h1 {
+  font-size: 19px;
+  font-weight: bold;
+  color: #176bad;
+  margin-top: 19px;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+
+@media (min-width: 500px ) {
+  .news-list {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+
