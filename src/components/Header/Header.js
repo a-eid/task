@@ -54,7 +54,9 @@ class Header extends Component {
         >
           <Img src="avatar" alt="avatar" />
           <span className="avatar-name">Jane Doe</span>
-          <span className="dropdown-arrow" />
+
+          <i className={`fa ${ this.state.logoutDropdown ? "fa-sort-up" : "fa-sort-desc"} dropdown-arrow`} aria-hidden="true"></i>
+
           <div className="user-img__dropdown">
             <span>Sign Out</span>
           </div>

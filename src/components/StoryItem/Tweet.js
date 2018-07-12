@@ -25,7 +25,7 @@ const Publication = ({
     {(expand) => (
       <div className="tweet-item-content">
         <div className="news-list-item__meta">
-          <span className="twitter" />
+          <i className="fa fa-twitter twitter"></i>
           <span className="news-list-item__domain">{author_screen_name}</span>
           <span>{moment(publishTime).fromNow()}</span>
         </div>
